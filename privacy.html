@@ -1,70 +1,142 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RivalTrack Privacy Policy</title>
-<style>
-:root{--bg:#fff;--fg:#1c1c1e;--muted:#6e6e73;--accent:#ff5a1f}
-@media (prefers-color-scheme:dark){:root{--bg:#0f0f12;--fg:#f2f2f7;--muted:#a1a1a6}}
-body{background:var(--bg);color:var(--fg);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:720px;margin:0 auto;padding:24px 16px}
-h1{color:var(--accent)}h2{margin-top:32px}em{color:var(--muted)}
-</style></head><body>
-<h1>Privacy Policy: RivalTrack</h1>
-<p><em>Last updated: 9 November 2026</em></p>
-<p>RivalTrack is designed to keep your data on your phone. This policy explains what is stored where, who can see it, and how to delete it.</p>
-<h2>Data that stays on your phone</h2>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · RivalTrack</title>
+<meta name="description" content="What data the RivalTrack app uses, where it goes, how long it is kept and how to delete it.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+<nav aria-label="Main">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="privacy.html" aria-current="page">Privacy</a></li>
+<li><a href="terms.html">Terms</a></li>
+<li><a href="cookies.html">Cookies</a></li>
+<li><a href="refunds.html">Refunds</a></li>
+</ul>
+</nav>
+</header>
+<main id="main" tabindex="-1">
+<h1>Privacy Policy</h1>
+<p class="updated">Last updated: 11 November 2026</p>
+
+<p>This policy explains what data the RivalTrack app uses, where it goes, how long it is kept and how to delete it. Most of what you log never leaves your phone.</p>
+
+<h2 id="who">Who is responsible</h2>
+<p>Drøgemüller Apps, CVR 46916034, Denmark, is responsible for the data described here (the &ldquo;data controller&rdquo;). Contact: <a href="mailto:philipdrogemuller@gmail.com">philipdrogemuller@gmail.com</a>.</p>
+
+<h2 id="phone">Data that stays on your phone</h2>
+<p>This is stored only on your iPhone (and in your own iCloud or Apple Health where noted). We never receive it.</p>
 <ul>
 <li>Workouts, routines, exercises, sets and personal records</li>
-<li>Your food and calorie log, nutrition goals and body stats (age, height, weight, activity level)</li>
-<li>Steps and active energy read from Apple Health, and only if you switch them on: sleep, resting heart rate, heart rate variability, body weight and VO₂ max. They are only shown in the app, never uploaded and never used for advertising</li>
-<li>Photos of meals. These are recognized on the phone with Apple&#x27;s built-in image recognition</li>
-<li>Your weigh-ins, and what the app learns about how you measure foods (drink or food, usual portion)</li>
-<li>Water you log, your health badges, step streaks and reminder settings</li>
-<li>Your usual gym and how often you pick each gym (to suggest gyms), stored only on the phone</li>
-<li>Readiness scores, Watch Report ratings and nutrition evaluations: worked out on the phone from your own data, never uploaded</li>
-<li><strong>GPS routes</strong> are also saved to Apple Health if you allow it, so they appear in the Fitness app</li>
-<li><strong>GPS routes and location.</strong> If you track an outdoor session with GPS, your location is used to measure distance, pace, elevation and km splits. The route is saved only on your phone and is never uploaded or shared. Location is only used while a GPS session is running (including with the phone locked), never in the background otherwise</li>
+<li>Your food and calorie log, nutrition goals and body stats (age, height, weight, activity level), weigh-ins and water</li>
+<li>Data read from Apple Health, only if you allow it: steps and active energy, and if you switch them on, sleep, resting heart rate, heart rate variability, body weight, VO₂ max and the other readings under Sleep &amp; Health</li>
+<li>Readiness scores, Watch Report ratings and nutrition evaluations, worked out on the phone</li>
+<li>Meal photos you recognise with the free on-phone recognition (Apple&rsquo;s built-in image recognition)</li>
+<li>GPS routes and your location during an outdoor session. The route is saved on your phone, and in Apple Health if you allow it. Your location is otherwise only used when you look for a gym near you: that search goes to Apple Maps</li>
+<li>Your usual gyms, reminders, badges, settings and what the app learns about how you measure foods</li>
+<li>The date you first opened the app, kept in the phone&rsquo;s Keychain (and in your iCloud key-value storage if available), so the free Pro trial can be used once per person</li>
 </ul>
-<h2>Data shared online (only if you use the Friends feature)</h2>
-<p>When you agree to use Friends, the following is stored with <strong>Google Firebase</strong> (Cloud Firestore, EU region), using an anonymous sign-in with no email, phone number or password:</p>
+
+<h2 id="online">Data we process online</h2>
+
+<h3 id="launch">When the app opens</h3>
+<p>When the app opens, it reads one setting from our server at Google Firebase: whether RivalTrack Pro is switched on. No name or other personal details are sent with it. Like any internet request it reaches Google with your device&rsquo;s IP address, it can include an App Check token (see <a href="#appcheck">App Check</a>), and if you use the friends feature or AI estimates it carries your anonymous account&rsquo;s sign-in.</p>
+<p>Apart from that, nothing below is sent unless you use the feature it belongs to.</p>
+
+<h3 id="friends">Friends (optional)</h3>
+<p>The friends feature only starts after you agree to it on the Friends screen. It uses an anonymous account: no email, phone number or password. If you choose &ldquo;Keep your account&rdquo; (Sign in with Apple), Apple gives us an identifier for your Apple ID so you can sign in again on a new phone; Apple doesn&rsquo;t share your email with us. If you agree, the following is stored on our servers at Google Firebase:</p>
 <ul>
-<li>Your chosen display name and your invite code</li>
-<li>The date you first started using the app (to recognise early users as Founding Members)</li>
-<li>Workouts you mark as <strong>All friends</strong> or <strong>Selected friends</strong>: title, date, duration, exercise names, sets, weights, reps and personal records</li>
-<li>For GPS sessions: the <strong>distance</strong> and that it was measured by GPS (never the route or your location)</li>
-<li><strong>Photo proof</strong> you choose to attach to a cardio session (a photo of a machine&#x27;s display), visible only to the people who can see that session</li>
-<li>While you train, if your workouts are shared with friends or you join a friend&#x27;s session: a &quot;training now&quot; status with the workout title, live distance or number of sets, deleted when you finish</li>
-<li>Challenges you create or join (including team assignments and face-off lifts you log)</li>
-<li>Which <strong>badges</strong> you&#x27;ve earned (badge names only), so friends can see them</li>
-<li><strong>Anonymous food knowledge</strong> (can be turned off in Settings → Help improve food recognition): when you log a food, a vote on whether the product is a drink or food and the amount, counted per barcode and per word of the product name, without your ID; and products you type in for barcodes Open Food Facts doesn&#x27;t have (stored with your anonymous user ID so only you can edit them). Nothing about what or when you eat is linked to you</li>
-<li><strong>Planned training sessions</strong> you create or are invited to: date and time, the gym&#x27;s name, address and map position, an optional note, who is invited and who is coming. Visible only to the people invited</li>
-<li>In a <strong>face-off duel</strong>: your body weight and sex (for the tiebreak and DOTS points), visible only to your opponent</li>
-<li>Your friend connections, people you have blocked, and 💪 likes</li>
+<li>Your display name, your invite code and the date you first started using the app</li>
+<li>Workouts you share with all friends or selected friends: title, date, duration, exercise names, sets, weights, reps, personal records and badges earned in that workout. For GPS sessions only the distance and that it was measured by GPS, never the route or your location</li>
+<li>Your best lifts on bench press, squat, deadlift, overhead press and pull-ups, worked out from workouts you share with all friends, for the rankings</li>
+<li>Photo proof you choose to attach to a cardio session</li>
+<li>While you train with sharing on, or join a friend&rsquo;s session: a &ldquo;training now&rdquo; status with the workout title and live distance or number of sets, deleted when you finish</li>
+<li>Challenges and face-offs you create or join, including the lifts logged and, in a face-off, your body weight and sex (used for the tiebreak and DOTS points and shown to your opponent)</li>
+<li>Planned training sessions you create or are invited to: date, time, the gym&rsquo;s name, address and map position, an optional note and who is coming</li>
+<li>Your friend connections and requests, people you block, 💪 likes, and who invited you (to credit invite rewards)</li>
 <li>Reports you send about other users</li>
+<li>If you allow notifications for the friends feature: your device&rsquo;s push token and app language, so friends&rsquo; activity can be sent to you</li>
+<li>If &ldquo;Help improve food recognition&rdquo; is on (it can be switched off in Settings): when you log a food, an anonymous vote on whether the product is a drink or a food and the usual amount, counted per barcode and per word of the product name without your ID; and products you type in for unknown barcodes, stored with your anonymous ID so only you can edit them</li>
 </ul>
-<p>Shared workouts are only visible to the friends you have connected with (or the friends you selected). <strong>Private</strong> workouts, food and calorie data and Apple Health data are never uploaded.</p>
-<p><strong>Legal basis:</strong> your explicit consent, given in the app before anything is uploaded (GDPR Art. 6(1)(a) and 9(2)(a)). You can withdraw it at any time by deleting your friends account.</p>
-<h2>Other services</h2>
+<p>Shared workouts are only shown to the friends you connected with, or the friends you selected. Your display name and best lifts can be looked up by other signed-in users who know your account ID, for example friends and people you have sent requests to. Private workouts, your food log and Apple Health data are never uploaded.</p>
+<p><strong>Why we may use it:</strong> your consent, given on the Friends screen. Because workouts can say something about your health, this is your explicit consent. You can withdraw it at any time by deleting your friends account (see <a href="#delete">Deleting your data</a>).</p>
+
+<h3 id="ai">AI meal photo estimates (Pro, optional)</h3>
+<p>When you use the AI estimate, the meal photo and any details you type are sent to our server (Google Cloud Functions in Google&rsquo;s EU region europe-west1), which passes them to Anthropic&rsquo;s Claude API to estimate the food and calories. Our server does not save the photo. Anthropic processes it under its <a href="https://www.anthropic.com/legal/commercial-terms">Commercial Terms</a>, which say Anthropic may not train its models on this content, and its Data Processing Addendum. Anthropic may process the data outside the EU.</p>
+<p>To limit each person to a number of estimates a day, the feature uses an anonymous account and we keep a count of how many estimates that account has used today, plus a total for all users. The app asks for your permission before the first photo is sent.</p>
+<p><strong>Why we may use it:</strong> your consent, given when you first use the feature.</p>
+
+<h3 id="partners">Partner codes (optional)</h3>
+<p>If you enter a code from a creator or coach, we store that your anonymous account joined with that code and when. If you later buy Pro, a random token is attached to the purchase so our server can credit that partner. Apple then tells our server about the purchase and any refund. We record the product, price, currency, date, App Store country and a transaction number; never your name, email or payment details. Partners only see totals, never who bought.</p>
+<p><strong>Why we may use it:</strong> to pay partners correctly for the purchases they referred, which you choose to support by entering their code, and to keep the records bookkeeping law requires.</p>
+
+<h3 id="usage">Usage counts (off unless you switch them on)</h3>
+<p>If you switch on &ldquo;Share anonymous usage counts&rdquo; (during setup or in Settings), the app counts events such as &ldquo;a workout was finished&rdquo; or &ldquo;the Pro screen was opened&rdquo; on your phone and sends daily totals at most once an hour. The totals are added up across all users and stored without any user or device ID. Switch it off at any time in Settings.</p>
+<p><strong>Why we may use it:</strong> your consent, given when you switch it on.</p>
+
+<h3 id="appcheck">App Check</h3>
+<p>When the app talks to our server, it can include a short-lived token from Google Firebase App Check, based on Apple&rsquo;s App Attest, that shows the request comes from the genuine app. This protects the service from abuse. According to Google, App Check tokens last at most 7 days.</p>
+
+<h3 id="purchases">Purchases</h3>
+<p>Purchases are made through Apple. We never receive your payment details. Apple tells the app which purchases you have so Pro can be unlocked. Except for partner codes (above), we do not store your purchases on our servers.</p>
+
+<h2 id="providers">Service providers and where data is processed</h2>
+<div class="table-wrap">
+<table>
+<caption class="visually-hidden">Service providers</caption>
+<thead><tr><th scope="col">Provider</th><th scope="col">What for</th><th scope="col">Where</th></tr></thead>
+<tbody>
+<tr><td>Google (Firebase): Cloud Firestore, Cloud Functions, Authentication, Cloud Messaging, App Check</td><td>Storing friends data, our server, anonymous sign-in, push notifications, App Check</td><td>Our server functions run in the EU (Belgium). According to Google, Firebase sign-in runs only in US data centres, and Google may process other Firebase data anywhere it has facilities. Google LLC states that it is certified under the EU-U.S. Data Privacy Framework. See <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</td></tr>
+<tr><td>Anthropic</td><td>AI meal photo estimates</td><td>May be outside the EU, under Anthropic&rsquo;s Data Processing Addendum</td></tr>
+<tr><td>Apple</td><td>App Store purchases, Sign in with Apple, Apple Health, Apple Maps (finding gyms), notifications, App Attest</td><td>Apple acts under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td></tr>
+<tr><td>Open Food Facts</td><td>Looking up barcodes and food searches</td><td>Your phone contacts Open Food Facts directly, so they see your device&rsquo;s IP address like any website. We send no account or personal details</td></tr>
+<tr><td>GitHub</td><td>Hosting this website</td><td>GitHub logs visitors&rsquo; IP addresses for security</td></tr>
+</tbody>
+</table>
+</div>
+<p>We do not sell data, show ads or track you across other companies&rsquo; apps and websites.</p>
+
+<h2 id="retention">How long we keep data</h2>
 <ul>
-<li><strong>Open Food Facts</strong> (openfoodfacts.org): barcodes and search terms are sent to look up products. No personal data is included.</li>
-<li><strong>Apple Health</strong>: workouts and meals are written to Apple Health only if you allow it. You can turn this off in Settings.</li>
-<li><strong>Apple Maps</strong>: when you choose a gym, a search for fitness centres near your current location is sent to Apple. Apple&#x27;s privacy policy applies.</li>
-<li><strong>Anonymous usage counts (Google Firebase, can be switched off in Settings)</strong>: daily totals such as &quot;a workout was finished&quot;, added up across all users. No user ID, device ID or personal data is sent.</li>
-<li><strong>Sign in with Apple (optional)</strong>: if you choose it to keep your friends account on a new phone, Apple confirms who you are; your email is not shared with RivalTrack.</li>
-<li><strong>Anthropic (Pro AI photo estimates only)</strong>: when you tap &quot;Estimate Every Item with AI&quot;, that meal photo and any details you type are sent through our server (Firebase, EU) to Anthropic&#x27;s API for analysis. The photo isn&#x27;t stored. Nothing is sent unless you use this feature.</li>
+<li>Friends data: until you delete it or your friends account, except what is listed under <a href="#delete">Deleting your data</a></li>
+<li>&ldquo;Training now&rdquo; status: until the session ends</li>
+<li>AI estimate counts: one counter per anonymous account, holding only the date and the count, which starts again from zero on a new day; the anonymous account itself stays until deleted</li>
+<li>Partner code and purchase records: as long as needed to pay the partner and for bookkeeping</li>
+<li>Usage counts: daily totals with no personal data</li>
+<li>Google keeps logged IP addresses from sign-in for a few weeks, according to Google</li>
 </ul>
-<h2>Your rights and choices</h2>
+
+<h2 id="delete">Deleting your data</h2>
+<p>In the app: <strong>Friends → My Friends → Delete My Friends Account</strong>. This deletes your profile and best lifts, your shared workouts and photo proof, your friend connections and requests, your block list, your push token, your invite code, sessions you planned, challenges you created and your &ldquo;training now&rdquo; status, and then deletes the anonymous account itself. Firebase only allows that last step if you signed in recently; if it fails, the account is left without any of the data above.</p>
+<p>Some things are not removed by that button at the moment:</p>
 <ul>
-<li>Make any workout private when you finish it, or later in History.</li>
-<li><strong>Delete your friends account</strong> and everything you&#x27;ve shared: Friends → My Friends → Delete My Friends Account.</li>
-<li><strong>Export</strong> your data (JSON backup or CSV), or <strong>delete</strong> it from the phone: Settings → Backup &amp; data.</li>
-<li>Remove, block or report other users: Friends → My Friends.</li>
-<li>Under the GDPR you have the right to access, correct and delete your data and to complain to your data protection authority (in Denmark: Datatilsynet).</li>
+<li>💪 likes you gave on friends&rsquo; workouts, and your entries in challenges and planned sessions that others created</li>
+<li>Products you typed in for unknown barcodes, and reports you sent</li>
+<li>The record of who invited you, and partner code and purchase records</li>
+<li>The anonymous account and daily count used for AI estimates, if you used them without the friends feature</li>
 </ul>
-<h2>Community rules</h2>
-<p>Offensive names, posts or content are not allowed. You can report or block any user. Reports are reviewed and content that breaks the rules is removed, usually within 24 hours.</p>
-<h2>What we don&#x27;t do</h2>
-<p>No ads, no analytics or tracking SDKs, and no selling or sharing of data with third parties for marketing.</p>
-<h2>Health disclaimer</h2>
-<p>Calorie and macro targets are estimates for healthy adults and not medical advice. If you are pregnant, under 18, or have a medical condition or a history of eating disorders, consult a doctor or dietitian.</p>
-<h2>Contact</h2>
-<p>Questions or deletion requests: <strong>philipdrogemuller@gmail.com</strong></p>
-</body></html>
+<p>If you want these removed too, email <a href="mailto:philipdrogemuller@gmail.com">philipdrogemuller@gmail.com</a> <strong>before</strong> deleting your friends account and include the invite code shown in the app, so we can find them. An anonymous account used only for AI estimates has no invite code or name, so we can&rsquo;t find it from an email; it holds nothing but the daily count. None of these records contain your email, phone number or real name unless you used it as your display name.</p>
+<p>Data on your phone: <strong>Settings → Backup &amp; data</strong> lets you export it (JSON or CSV) or delete it. Deleting the app also deletes it, except what is in Apple Health or iCloud.</p>
+
+<h2 id="rights">Your rights</h2>
+<p>You have the right to access, correct and delete your personal data, to restrict or object to its use, to get it in a portable format, and to withdraw consent at any time without affecting what happened before. Email <a href="mailto:philipdrogemuller@gmail.com">philipdrogemuller@gmail.com</a>. You can also complain to the Danish Data Protection Agency, <a href="https://www.datatilsynet.dk">Datatilsynet</a>, or the authority where you live.</p>
+
+<h2 id="children">Children</h2>
+<p>The friends feature and the AI estimates are for people aged 15 or over. If you are under 15, a parent or guardian must agree before you use them. Everything else in the app works without an account.</p>
+
+<h2 id="health">Health information</h2>
+<p>Calorie and macro targets, readiness scores and health ratings are estimates for general fitness, not medical advice. If you are pregnant, under 18, or have a medical condition or a history of eating disorders, talk to a doctor or dietitian.</p>
+
+<h2 id="changes">Changes</h2>
+<p>If this policy changes, the date at the top changes. If a change affects what is shared, the app will ask again before sharing more.</p>
+</main>
+<footer>
+<p>RivalTrack is provided by Drøgemüller Apps, CVR 46916034, Denmark. Contact: <a href="mailto:philipdrogemuller@gmail.com">philipdrogemuller@gmail.com</a>.</p>
+</footer>
+</body>
+</html>
